@@ -1,0 +1,296 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+    <title>Pokéidon</title>
+</head>
+<body>
+
+    
+
+<!--Navbar-->
+<div class="navigation">
+
+
+<nav class="navbar navbar- lighten-4">
+
+  <!-- Navbar brand -->
+  <a class="navbar-brand" href="#"><img src="LOGOBLANC.png" alt="" height="70"></a>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
+    aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="animated-icon1"><span></span><span></span><span></span></div>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent20">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="qui.html">Qui sommes-nous ?</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+    <!-- Links -->
+
+  </div>
+  <!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
+</div>
+  
+
+<!-- PREMIERE SECTION -->
+<div class="bg">
+    <img class ="logo" src="LOGOBLANC.png" alt="">
+    <nav class="nav">
+        <a href="index.html">Accueil</a>
+        <a href="#">Menu</a>
+        <a href="qui.html">Qui sommes-nous ?</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+   
+    <h1 class="slogan">
+        HEALTHY <br>
+        QUALITY <br>
+        ECOLOGY
+    </h1>
+    <a href="#" class="myButton">Commander</a>
+</div>
+<!-- FIN PREMIERE SECTION -->
+
+
+<!-- DEUXIEME SECTION CONCEPT -->
+<div class="bg2">
+  <h1 class="slogan2">• LE CONCEPT •</h1>
+  <div class="vl"></div> 
+ 
+      <img src="ingredients/riz.png" alt="" class="riz" onclick="changeBase()">   
+      <img src="ingredients/thon.png" alt="" class="thon" onclick="changePoke()">
+      <img src="ingredients/avocat.png" alt="" class="avocat" onclick="changeTopping()">
+      <img src="basepoke.png" alt="" class="basepoke">
+      <img src="ingredients/sesame.png" alt="" class="sesame" onclick="changeGarniture()">
+      <img src="ingredients/sauce_sucree.png" alt="" class="sucree" onclick="changeMarinade()">
+
+      <div id="circle1"></div>
+      <div id="circle2"></div>
+      <div id="circle3"></div>
+      <div id="circle4"></div>
+      <div id="circle5"></div>
+      <!-- Partie droite de la section -->
+      <h1 id="conceptBase"></h1>
+</div>   
+     <img id="imgCatalogue" src="catalogue/textescreen.png" alt="">
+
+<!-- FIN DEUXIEME SECTION CONCEPT-->
+
+
+<!-- TROISIEME SECTION POKE TENDANCE -->
+
+<div class="bg2">
+  <h1 class="slogan2">• POKE TENDANCE •</h1>
+<center>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <img src="poke1.jpg" alt="" class="imgPoke">
+        <a href="#" class="myButton2">Commander</a>
+      </div>
+      <div class="col">
+        <img src="poke1.jpg" alt="" class="imgPoke">
+        <a href="#" class="myButton2">Commander</a>
+      </div>
+      <div class="col">
+        <img src="poke1.jpg" alt="" class="imgPoke">
+        <a href="#" class="myButton2">Commander</a>
+      </div>
+
+      <div class="col">
+        <img src="poke1.jpg" alt="" class="imgPoke">
+        <a href="#" class="myButton2">Commander</a>
+      </div>
+      <div class="col">
+        <img src="poke1.jpg" alt="" class="imgPoke">
+        <a href="#" class="myButton2">Commander</a>
+      </div>
+      <div class="col">
+        <img src="poke1.jpg" alt="" class="imgPoke">
+        <a href="#" class="myButton2">Commander</a>
+      </div>
+    </div>
+  </div>
+  <center>
+</div>
+
+<!-- FIN TROISIEME SECTION POKE TENDANCE -->
+
+<!-- QUATRIEME SECTION SUIVEZ NOUS / HORAIRES -->
+<div class="bg2">
+  <h1 class="slogan3">• SUIVEZ-NOUS •</h1>
+  <center>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="poke2.jpg" alt="" class="imgPokesuivez">
+            <div class="col"> 
+              <h1 class="horaires">Horaires d'ouverture</h1>
+              <h3 class="horaires2">Du lundi au vendredi</h3>
+              <h1 class="horaires3">11h-15h et 18h30-22h</h1>
+              <a href="#" class="myButton3">Commander</a>
+            </div>
+        </div>
+      </div>
+      </div>
+  </center>
+</center>
+</div>
+<div class="bghoraire"></div>
+<div class="bg2"></div>
+
+<!-- FIN QUATRIEME SECTION SUIVEZ NOUS / HORAIRES -->
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small pt-4">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mx-auto">
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="index.html">Accueil</a>
+          </li>
+          <li>
+            <a href="#!">Menu</a>
+          </li>
+          <li>
+            <a href="qui.html">Qui sommes-nous ?</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Adresse: a@gmail.com</a>
+          </li>
+          <li>
+            <a href="#!">Tél : 0654585474</a>
+          </li>
+          <li>
+            <a href="#!">Heure : 8h - 18h</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <hr>
+
+
+  <!-- Social buttons -->
+  <ul class="list-unstyled list-inline text-center">
+    <li class="list-inline-item">
+      <a class="btn-floating btn-fb mx-1">
+        <a href=""><img src="instagram.png" alt="" class="logoSociaux"></a>
+          
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-tw mx-1">
+
+          <a href=""><img src="facebook.png" alt="" class="logoSociaux"></a>
+
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="btn-floating btn-gplus mx-1">
+  
+          <a href=""><img src="twitter.png" alt="" class="logoSociaux"></a>
+      </a>
+    </li>
+  </ul>
+  <!-- Social buttons -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">
+    
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+</footer>
+<!-- Footer -->
+    <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/js/mdb.min.js"></script>
+    <script src="sandbox.js"></script>
+</body>
+</html>
